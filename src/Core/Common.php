@@ -6,8 +6,8 @@ abstract class Common
 {
 	public $config;
 
-	public function __construct(){
-		$this->config = new Config;
+	public function __construct(){		
+		$this->config = new Config();
 	}
 
 	public function redirect($uri = '')
